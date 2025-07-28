@@ -1,0 +1,27 @@
+title: "Misbahul Karim | Portfolio"
+description: "Personal portfolio showcasing my projects, skills, and experience"
+author: "Misbahul Karim"
+email: "mixbaul786@gmail.com"
+url: "https://TheAstrophile-KingK.github.io"
+baseurl: "/portfolio_website"  # ✅ keep only if repo name is exactly portfolio_website
+
+# No theme since you use custom HTML
+# theme: minima
+
+markdown: kramdown
+highlighter: rouge
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/
+
+lang: en_US
+timezone: Asia/Kolkata
